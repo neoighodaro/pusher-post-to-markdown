@@ -1,0 +1,13 @@
+{
+    "name": "neo/converter",
+    "authors": [
+        {
+            "name": "Neo Ighodaro",
+            "email": "neo@creativitykills.co"
+        }
+    ],
+    "require": {
+        "league/html-to-markdown": "^4.6",
+        "fabpot/goutte": "^3.2"
+    }
+}
