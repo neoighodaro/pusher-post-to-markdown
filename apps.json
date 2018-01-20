@@ -1,0 +1,6 @@
+{
+    "name": "Pusher Markdown",
+    "description": "Convert Pusher blog posts to Markdown.",
+    "repository": "https://github.com/neoighodaro/pusher-post-to-markdown/",
+    "addons": []
+}
