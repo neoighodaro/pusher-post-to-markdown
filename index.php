@@ -41,7 +41,7 @@ if ($url !== false) {
         $converter = new HtmlConverter(['header_style' => 'atx', 'hard_break' => true, 'strip_tags' => true]);
         $rawMarkdown = $converter->convert($rawArticleHtml);
 
-        $parsedArticle = preg_replace(['/```([A-Z>!#])/', '/<!--(.*)-->/'], ["```\n\n$1", ''], $rawMarkdown);
+        $parsedArticle = preg_replace(['/```([A-Z>!#*])/', '/<!--(.*)-->/'], ["```\n\n$1", ''], $rawMarkdown);
 
         $markdown = "# {$title}\n\n{$parsedArticle}\n\nThis post first appeared on the [Pusher blog]({$permalink}).";
     }
