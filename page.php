@@ -33,7 +33,7 @@
             <div class="col-6 d-flex justify-content-end align-items-center">
                 <form class="form-inline" action="/" method="post">
                 <div class="input-group mb-2 mr-sm-2">
-                    <input type="text" value="<?= $url ?? '' ?>" class="form-control" name="pusher_url" required placeholder="URL e.g https://blog.pusher.com/create-a-time-tracking-application-using-laravel-and-vue/">
+                    <input type="text" value="<?= $_POST['pusher_url'] ?? '' ?>" class="form-control" name="pusher_url" required placeholder="URL e.g https://blog.pusher.com/create-a-time-tracking-application-using-laravel-and-vue/">
                 </div>
                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
                 </form>
